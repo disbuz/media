@@ -5,5 +5,5 @@
     const url = urlParams.get('url');
 
     const video = document.getElementById('video')
-    video.src = url
+    video.src = url.replce(/ /g, '+')
 </script>
