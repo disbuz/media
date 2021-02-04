@@ -1,11 +1,9 @@
-<video id='video' controls style="width: 100%; height: 100%;" src="https://tusd.tusdemo.net/files/c337b6b969e2996fe23decda33f0e869+wyUiIZPjf5PJL8xMghrfQV_IkZ5PvOx4WogflYsIy57pVAIm5tf1JrYCQY7sd8kaRagXV4.CUchvOVbAoTv6ym9b30Ti2EzU_9d9DD.yPEakEGmfvKhy0klJr1j7hbR9">
-    <source type='video/mp4'/>
-</video>
+<video id='video' controls style="width: 100%; height: 100%;"></video>
 
 <script>
     const urlParams = new URLSearchParams(window.location.search);
     const url = urlParams.get('url');
 
     const video = document.getElementById('video')
-    //video.src = url
+    video.src = url
 </script>
